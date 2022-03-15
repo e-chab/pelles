@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="projet.css" />
+<script type="text/javascript" src="projet.js"></script>
+<title>Projet</title>
+</head>
+<body>
+<ul class="menu">
+<li id="menu-accueil"><a href="index.html">Accueil</a></li>
+<li id="menu-informations"><a href="informationsProjet.html">Panneaux</a></li>
+<li id="menu-jeu-quizz-QCM"><a href="jeu-quizz-QCMProjet.html">Jeu</a></li>
+<li id="menu-choix"><a href="ChoixProjet.html">le Projet</a></li>
+<li id="menu-contact"><a href="contactProjet.html">Contact</a></li>
+</ul>
+<h3>Voulez-vous jouer à un petit jeu du <nobr style="color:red;">chaud</nobr>-<nobr style="color:#0008B8;">froid</nobr> pour trouver un panneau "histoire de Paris" ?</h3> 
+<div id="jeu">
+<button id="buttonCommercer" style="float: right;" onclick="commenceJeu()">Commencer</button> 
+<div id="pelleDuHasard"><p class='droite'><b>Règle :</br></br></br></b>La description d'une pelle va s'afficher, à vous de retrouver sur le plan où elle se trouve </br>
+</br>indice : elles ne sont pas dans l'enceinte des batiments</br>
+</br>attention : pour "s'échapper" cliquer sur n'importe quel touche "normale" (pas "echap")</p></div>
+<div id="carteParis5eme" onmousemove = "cursor(event)" onclick="chaudOUfroid(event)"><img id="gauche" alt="carteParis5eme" src="images/carteParis5eme.png">
+<div id="point">
+<img id="imagePoint" src="" width="15" height="auto" alt='point' />
+</div>
+<div id="localisation"><img id="imageLocalisation" src="images/pointLocalisation.png" alt ="pointLocalisation" width="30" height="auto"/></div>
+</div>
+<div><p id='codeCouleur'>brulant : <img src="images/points/pointRouge.jpg" width="15" height="auto" alt='point' />
+				chaud : <img src="images/points/pointOrange.jpg" width="15" height="auto" alt='point' />
+				plutôt chaud : <img src="images/points/pointJaune.jpg" width="15" height="auto" alt='point' />
+				tiède chaud : <img src="images/points/pointVertClair.jpg" width="15" height="auto" alt='point' />
+				tiède froid : <img src="images/points/pointVertFonce.jpg" width="15" height="auto" alt='point' />
+				plûtot froid : <img src="images/points/pointBleuClair.jpg" width="15" height="auto" alt='point' />
+				froid : <img src="images/points/pointBleuFonce.jpg" width="15" height="auto" alt='point' />
+				glacial : <img src="images/points/pointViolet.jpg" width="15" height="auto" alt='point' /></p></div>
+</div>
+</body>
+</html>
+

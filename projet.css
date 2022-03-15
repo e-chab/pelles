@@ -1,0 +1,195 @@
+body {font-family: 'source code pro' ,Arial,  serif; 
+      margin:0px;
+      padding:0px;}
+	  
+/*pour l'acceuil*/
+body.acceuil{background-image:url(images/fondecran.jpg);
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  color:white;
+	  text-align:center;
+	  font-size: 1.2em;}	
+h1.acceuil{background-color:rgba(107, 123, 173,0.80);
+			font-size: 2em;
+			padding:20px;}
+span.acceuil{padding:10px;
+		background-color:rgba(107, 123, 173,0.80);}
+p.acceuil{text-align:justify;
+		padding:20px;
+		background-color:rgba(107, 123, 173,0.75);}
+		
+/*menu*/
+.menu li{list-style-type:none; 
+       float:left;}
+ul.menu{margin:0px; 
+       padding:0px;
+       overflow : hidden;
+	   background-color:#142857;
+       width:100%;}
+.menu li a{display:inline-block;
+      padding:20px 30px;
+      text-decoration:none;
+      color:#fff;}
+#menu-accueil:hover{background-color:RGBa(107, 123, 173,0.15);
+               border-top: 5px solid RGBa(107, 123, 173,0.85);}
+#menu-informations:hover{background-color:RGBa(255,255,63,0.15);
+               border-top: 5px solid RGBa(255,255,63,0.85);}
+#menu-jeu-quizz-QCM:hover{background-color:RGBa(255,0,0,0.15);
+               border-top: 5px solid RGBa(255,0,0,0.85);}
+#menu-choix:hover{background-color:RGBa(0,255,255,0.15);
+               border-top: 5px solid RGBa(0,255,255,0.85);}
+#menu-contact:hover{background-color:RGBa(78,226,59,0.15);
+               border-top: 5px solid RGBa(78,226,59,0.85);}
+.menu li:hover a{padding : 15px 30px 20px 30px;} 
+
+/*vers le 5eme (panneau)*/
+.panneau a{display: block;
+		text-decoration: none;
+		position: relative;
+		color:#ffff3f;
+		font-size:150%;
+		text-align:center;
+		z-index:1;}   /*Lorsque des éléments se chevauchent, le z-order détermine l'ordre des différentes couches que formeront les éléments*/
+.panneau h3{transform: translate(-50%, -50%);
+		left: 50%;
+		top: 60%;
+		position: absolute;
+		z-index:2;}
+
+/*pelles*/
+.view{
+	position: relative;
+	border:10px solid #fff;
+	overflow: hidden; /*Pour caché l'élément ".mask" qui contient la description de l'article */
+	float: left;
+	margin: 5px;
+	}
+.view img{
+	width: 200px; /*même que .view img*/
+	height: 200px;
+	}
+.mask{
+	position: absolute;
+	left: 0;
+	top:300px;/*Pour positionner l'élément ".mask" au dessous de l'article */
+	background: rgba(20,40,87,0.75);
+	text-align: center;
+	display: table-cell;
+	color:#ffff3f;
+	width: 200px; /*même que .mask*/
+	height: 200px;
+	transition: top 1s; /* transition sur la propriété top qui change de 300px à 0 pendant le hover  */
+	}
+.mask p{
+	font-size: 1.5em;
+	font-family: fantasy,sans-serif;
+	background: #000000;
+	opacity: 0.85;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;	
+	cursor: pointer;
+	}
+.view:hover .mask{top:0;}/* changement de la position du ".mask" pendant le survol sur .view */
+#vaChanger {text-align:center;}
+#retourToutesPelles{margin-top:10px;
+					margin-left:5px}
+#retourPelles{
+  text-decoration: none;
+  padding:5px;
+  font-size: 1.2em;
+}
+#retourPelles:link {
+  color: #142857;
+}
+#retourPelles:hover {
+  border-bottom: 1px solid;
+  background: #FFFF3F;
+}
+#retourPelles:active {
+  background: #142857;
+  color: #FFFF3F;
+}
+#yAller{position:absolute;
+		top:30%;
+}
+#audio{font-size:2em;
+   position:absolute;
+   top:50%;
+   color :#142857;
+}
+audio {
+   margin: 0 auto;
+   width: 300px;
+   height: 80px;
+   background-color: #ffff3f;
+}
+
+/*contact, formulaire*/
+#contacter #adroite{text-align: right;}
+#contacter .button{background-color:rgb(78,226,59);
+					border-radius: 10px;}
+#contacter .button:hover {
+  box-shadow: 0 5px 16px 0 rgba(216,237,56,0.5), 0 5px 30px 0 rgba(216,237,56,0.25);}
+#contacter sup{color: rgb(78,226,59); 
+				font-size: x-large;}
+#contacter table {
+    width: 50%;}
+#contacter textarea {
+  height: 100px;}
+
+/*jeu*/
+.droite {
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+#gauche {
+	width: 55%;
+	height: 100%;
+	float: left;
+}
+#point{
+	position : absolute;
+	visibility: hidden; 
+}
+#localisation{
+	position : absolute;
+	visibility: hidden; 
+}
+#codeCouleur {float: left;}
+
+#buttonCommercer {
+  padding: 7px;
+  margin-top:2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: #ff0000; 
+  border: 2px solid #ff0000;
+}
+#buttonCommercer:hover {
+  background-color: #ff0000;
+  color: white;
+}
+#buttonRecommercer {
+  padding: 7px;
+  margin-top:2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #ff0000; 
+  color: white; 
+  border: 2px solid #ff0000;
+}
+#buttonRecommercer:hover {
+  background-color: white;
+  color: #ff0000;
+}
+
+
+

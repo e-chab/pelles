@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="projet.css" />
+<script type="text/javascript" src="projet.js"></script>
+<title>Projet</title>
+</head>
+<body>
+<ul class="menu">
+<li id="menu-accueil"><a href="index.html">Accueil</a></li>
+<li id="menu-informations"><a href="informationsProjet.html">Panneaux</a></li>
+<li id="menu-jeu-quizz-QCM"><a href="jeu-quizz-QCMProjet.html">Jeu</a></li>
+<li id="menu-choix"><a href="ChoixProjet.html">le Projet</a></li>
+<li id="menu-contact"><a href="contactProjet.html">Contact</a></li>
+</ul>
+<div>
+<h4 style="margin-left:10px;">Merci d’avoir regardé ce site !</h4>
+<p style="margin:0px 5px;text-align: justify;">Le choix de ce sujet s’est fait un peu par hasard. 
+Je n’avais pas de projet précis à l’esprit mais j’avais une multitude d’idées. 
+Alors, j’ai décidé de choisir le sujet en fonction du jeu que je pourrais développer sur le thème. 
+Ainsi je me suis interdit de faire un site sur une biographie ; et puis, en panne d’idées, j’ai choisi par une série de 
+circonstances le patrimoine parisien en passant devant une de ces pelles Starck. Ce sujet avait l’avantage de ne pas être déjà trop présent sur Internet, 
+ainsi je n'étais pas tentée de copier un site existant. Finalement, la recherche des informations et des ressources pour 
+le faire a été plutôt intéressante.
+</p>
+</div>
+<div>
+<form id="contacter">
+<h4>Un avis ? des idées ? un problème ? Vous pouvez nous contacter par email en remplissant le formulaire ci-dessous.</h4>
+<caption><sup>*</sup>=obligatoire</caption>
+<table>
+<tr><th>Prénom</th><td><input style="width: 100%;" id="prenom" type="text"></td></tr>
+<tr><th>Nom</th><td><input style="width: 100%;" id="nom" type="text"></td></tr>
+<tr><th>Adresse Email</th><td><input style="width: 100%;" id="email" onblur="controlEmail(this.id)" type="text"></td></tr> <!--évènement blur = perte du focus -->
+<tr><th>Confimation adresse Email</th><td><input style="width: 100%;" id="email2" onblur="confirEmail('email', this.id)" type="text"></td></tr> 
+<tr><th>Sujet du message</th><td><select style="width: 100%;" id="sujets"><option></option><option>avis</option><option>idée</option><option>problème</option><option>erreur</option><option>remarque</option><option>suggestion</option><option>commentaire</option><option>critique</option><option>demande de partenariat</option><option>proposition de financement</option><option>autre</option></select></td></tr>
+<tr><th>Message <sup>*</sup></th><td><textarea style="width: 100%;" id ="message"></textarea></td></tr>
+<!-- <tr><td><input type="checkbox">envoyer une copie de mon message à mon adresse email</td></tr> -->
+<tr><td></td><td id="adroite"><a id="valider" onclick="creerHref()" href="mailto:histoiredeparis.org@gmail.com"><input class="button" type="button" value="Valider" onclick="obligations()"></a></td></tr> <!--j'ai laissé cela car même si il y a plus simple à faire-->
+<tr><td></td><td id="adroite"><input type="reset" class="button" value="Rafraichir" /></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
