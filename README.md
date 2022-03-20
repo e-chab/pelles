@@ -44,5 +44,5 @@ https://en.wikipedia.org/wiki/JCDecaux
 https://fr.wikipedia.org/wiki/JCDecaux  
 for the Data. 
 
-Last but not least, many Thanks to my Teacher M. Philippe MOUTOU.  
+Last but not least, many Thanks to my Mathematics & Conmputer Science (i.e. NSI) Teacher M. Philippe MOUTOU.  
 http://ph.moutou.free.fr/1ereNSI/projetWEB2021/Diane/index.html
