@@ -30,10 +30,10 @@ https://developers.google.com/maps/
 https://cloud.google.com/translate/docs/reference/rest/
 + OpenStreetMap
 https://www.openstreetmap.org/
-+ Android Mobile App
-Découvrir Paris - Les Pelles Starck
-of
-Gaëtan DELORME-GUILLON
++ Android Mobile App  
+Découvrir Paris - Les Pelles Starck  
+of  
+Gaëtan DELORME-GUILLON  
 https://play.google.com/store/apps/details?id=pasapas.eu.decouvrirparis_lespellesstarck
 + Archive.org
 https://web.archive.org/web/20121028171729/http://claude.rohee.com/paris.htm
