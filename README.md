@@ -1,6 +1,6 @@
 # "Pelles STARCK" Project
 
-This project is my French 1ere NSI Web Project 
+This project is my French 1ère NSI Web Project 
 "pelles STARCK" is on the History of Paris
 https://en.wikipedia.org/wiki/Panel_Histoire_de_Paris
 ("Histoire de Paris" in French)
