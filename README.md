@@ -16,10 +16,10 @@ https://fr.wikipedia.org/wiki/Philippe_Starck
 The signs, in Paris, look like this :  
 https://fr.wikipedia.org/wiki/Panneau_Histoire_de_Paris#/media/Fichier:Lyc%C3%A9e_Henri-IV.png
 
-Thanks to :  
+Thanks to :
 + Wikipedia Contributors  
 https://fr.wikipedia.org/wiki/Panneau_Histoire_de_Paris
-+ OpenStreetMap Data
++ OpenStreetMap Data  
 https://osm4wiki.toolforge.org/cgi-bin/wiki/wiki-osm.pl?project=fr&article=Panneau_Histoire_de_Paris  
 https://tools.wmflabs.org/kmlexport?project=fr&article=Panneau_Histoire_de_Paris&usecache=0  
 + Tesseract Open Source OCR Engine  
